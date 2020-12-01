@@ -15,7 +15,6 @@ export default class ResizeAction extends Action {
 
   constructor(formatter: BlotFormatter) {
     super(formatter);
-    console.log("I'm here")
     this.topLeftHandle = this.createHandle('top-left', 'nwse-resize');
     this.topRightHandle = this.createHandle('top-right', 'nesw-resize');
     this.bottomRightHandle = this.createHandle('bottom-right', 'nwse-resize');

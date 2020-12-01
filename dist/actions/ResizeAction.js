@@ -89,7 +89,6 @@ var ResizeAction = function (_Action) {
       document.removeEventListener('mouseup', _this.onMouseUp);
     };
 
-    console.log("I'm here");
     _this.topLeftHandle = _this.createHandle('top-left', 'nwse-resize');
     _this.topRightHandle = _this.createHandle('top-right', 'nesw-resize');
     _this.bottomRightHandle = _this.createHandle('bottom-right', 'nwse-resize');
