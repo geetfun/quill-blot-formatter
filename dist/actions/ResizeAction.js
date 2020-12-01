@@ -106,7 +106,7 @@ var ResizeAction = function (_Action) {
       this.formatter.overlay.appendChild(this.topLeftHandle);
       this.formatter.overlay.appendChild(this.topRightHandle);
       this.formatter.overlay.appendChild(this.bottomRightHandle);
-      this.formatter.overlay.appendChild(this.bottomLeftHandle);
+      // this.formatter.overlay.appendChild(this.bottomLeftHandle);
 
       this.repositionHandles(this.formatter.options.resize.handleStyle);
     }
