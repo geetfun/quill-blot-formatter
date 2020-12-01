@@ -80,21 +80,13 @@ const DefaultOptions: Options = {
     },
     icons: {
       left: `
-        <i class="fal fa-align-left"></i>
+        <i class="fad fa-align-left"></i>
       `,
       center: `
-        <svg viewbox="0 0 18 18">
-           <line class="ql-stroke" x1="15" x2="3" y1="9" y2="9"></line>
-          <line class="ql-stroke" x1="14" x2="4" y1="14" y2="14"></line>
-          <line class="ql-stroke" x1="12" x2="6" y1="4" y2="4"></line>
-        </svg>
+        <i class="fad fa-align-center"></i>
       `,
       right: `
-        <svg viewbox="0 0 18 18">
-          <line class="ql-stroke" x1="15" x2="3" y1="9" y2="9"></line>
-          <line class="ql-stroke" x1="15" x2="5" y1="14" y2="14"></line>
-          <line class="ql-stroke" x1="15" x2="9" y1="4" y2="4"></line>
-        </svg>
+        <i class="fad fa-align-right"></i>
       `,
     },
     toolbar: {
@@ -121,7 +113,7 @@ const DefaultOptions: Options = {
         width: '24px',
         height: '24px',
         background: 'white',
-        border: '1px solid #999',
+        border: '0',
         verticalAlign: 'middle',
       },
       svgStyle: {
