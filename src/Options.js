@@ -114,6 +114,7 @@ const DefaultOptions: Options = {
         height: '24px',
         background: 'white',
         border: '0',
+        padding: '10px',
         verticalAlign: 'middle',
       },
       svgStyle: {
